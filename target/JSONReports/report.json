@@ -1,0 +1,155 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-17T15:44:05.638Z",
+        "line": 5,
+        "name": "Validando BUSCA BLOG com uma busca com caracteres especiais e numeros",
+        "description": "",
+        "id": "validar-pagina-busca-blog;validando-busca-blog-com-uma-busca-com-caracteres-especiais-e-numeros",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13784292800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que estou na pagina BUSCA BLOG",
+            "match": {
+              "location": "BuscaBlogSteps.que_estou_na_pagina_BUSCA_BLOG()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 491698600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencho o campo de busca",
+            "match": {
+              "location": "BuscaBlogSteps.preencho_o_campo_de_busca()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1884449700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico em pesquisar",
+            "match": {
+              "location": "BuscaBlogSteps.clico_em_pesquisar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 46520900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "valido a busca no RESULTADO DA SUA BUSCA NO BLOG",
+            "match": {
+              "location": "BuscaBlogSteps.valido_a_busca_no_RESULTADO_DA_SUA_BUSCA_NO_BLOG()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Validar pagina BUSCA BLOG",
+    "description": "",
+    "id": "validar-pagina-busca-blog",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/FeatureBuscaBlog/BuscaBlog.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-17T15:44:21.882Z",
+        "line": 5,
+        "name": "Acessar a FAP e preencher o formulario para calculo",
+        "description": "",
+        "id": "validar-a-fator-acidentario-de-prevencao;acessar-a-fap-e-preencher-o-formulario-para-calculo",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1021900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que estou na pagina BUSCA BLOG FAP",
+            "match": {
+              "location": "FapSteps.que_estou_na_pagina_BUSCA_BLOG_FAP()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027CORDEIRO\u0027, ip: \u0027192.168.0.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\JUNIOR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:29934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 4cbb4e67d30eebc5a13bc92d509a0866\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat stepDefinitions.FapSteps.seleciono_na_barra_superior_Solucoes_e_Recursos_FAP(FapSteps.java:27)\r\n\tat ✽.seleciono na barra superior -\u003e Solucoes e Recursos -\u003e FAP(file:src/test/resources/FeatureFAP/Fap.feature:7)\r\n",
+              "duration": 10108886000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "seleciono na barra superior -\u003e Solucoes e Recursos -\u003e FAP",
+            "match": {
+              "location": "FapSteps.seleciono_na_barra_superior_Solucoes_e_Recursos_FAP()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 754200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "preencho os campos",
+            "match": {
+              "location": "FapSteps.preencho_os_campos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 550700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "clico estimar FAP",
+            "match": {
+              "location": "FapSteps.clico_estimar_FAP()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 547800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "valido o calculo FAP",
+            "match": {
+              "location": "FapSteps.valido_o_calculo_FAP()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Validar a Fator acidentario de Prevencao",
+    "description": "",
+    "id": "validar-a-fator-acidentario-de-prevencao",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/FeatureFAP/Fap.feature",
+    "tags": []
+  }
+]
